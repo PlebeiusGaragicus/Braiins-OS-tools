@@ -7,15 +7,15 @@ this script loops through IP addresses in order to find any machines running Bra
 
 usage:
 
-   sh findminers.sh [ --base-ip BASE_IP_ADDRESS ]
+   sh miner_find.sh [ --base-ip BASE_IP_ADDRESS ]
 
 example:
 
-   sh findminers.sh --base-ip 192.168.4
+   sh miner_find.sh --base-ip 192.168.4
 
 or, use the base address of the machine running this script with:
 
-    sh findminers.sh --my-base-address
+    sh miner_find.sh --my-base-address
 ```
 
 # requirements
