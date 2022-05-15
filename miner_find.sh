@@ -27,15 +27,15 @@ echo "this script loops through IP addresses in order to find any machines runni
 echo 
 echo "usage:"
 echo
-echo "   sh findminers.sh [ --base-ip BASE_IP_ADDRESS ]"
+echo "   sh $0 [ --base-ip BASE_IP_ADDRESS ]"
 echo
 echo "example:"
 echo
-echo "   sh findminers.sh --base-ip 192.168.4"
+echo "   sh $0 --base-ip 192.168.4"
 echo
 echo "or, use the base address of the machine running this script with:"
 echo
-echo "    sh findminers.sh --my-base-address"
+echo "    sh $0 --my-base-address"
 exit
 fi
 
